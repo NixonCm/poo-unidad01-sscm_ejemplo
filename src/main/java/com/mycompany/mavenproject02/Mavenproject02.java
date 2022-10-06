@@ -21,24 +21,32 @@ public class Mavenproject02 {
         
         celular1.color="negro";
         celular1.marca="Samsung";
-        celular1.modelo="Galaxy_s8";
+        celular1.modelo="Galaxy s8";
         celular1.peso=155;
-        
+        System.out.println("Mi celular es un " + celular1.marca 
+                +" y es de color "+ celular1.color + " de modelo "
+                + celular1.modelo + " y pesa "+ celular1.peso + "g");
         celular2.color="blanco";
         celular2.marca="Xiaomi";
-        celular2.modelo="redmi_note_9";
+        celular2.modelo="redmi note 9";
         celular2.peso=199;
-        
+         System.out.println("Mi celular es un " + celular2.marca 
+                +" y es de color "+ celular2.color + " de modelo "
+                + celular2.modelo + " y pesa "+ celular2.peso + "g");
         celular3.color="blanco";
         celular3.marca="iphone";
         celular3.modelo="Xs";
         celular3.peso=177;
-        
+         System.out.println("Mi celular es un " + celular3.marca 
+                +" y es de color "+ celular3.color + " de modelo "
+                + celular3.modelo + " y pesa "+ celular3.peso + "g");
         celular4.color="morado";
         celular4.marca="Huawei";
         celular4.modelo="p20_pro";
         celular4.peso=180;
-        
+         System.out.println("Mi celular es un " + celular3.marca 
+                +" y es de color "+ celular3.color + " de modelo "
+                + celular3.modelo + " y pesa "+ celular3.peso + "g");
         
         var gato1 = new Gato();
         var gato2 = new Gato();
@@ -50,12 +58,16 @@ public class Mavenproject02 {
         gato1.raza="Abisinio";
         gato1.peso=3;
         
+         System.out.println("Mi gato se llama " + gato1.nombre 
+                +" y es de raza "+ gato1.raza + " tiene una edad de "
+                + gato1.edad + " años "+ celular1.peso + "g");
+        
         gato2.nombre="Pelusa";
         gato2.edad=1;
         gato2.raza="persa";
         gato2.peso=4;
         
-        gato3.nombre="Copo_de_nieve";
+        gato3.nombre="Copo de nieve";
         gato3.edad=3;
         gato3.raza="kohana";
         gato3.peso=5;

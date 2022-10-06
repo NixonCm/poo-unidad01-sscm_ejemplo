@@ -12,7 +12,7 @@ public class Celular {
     String marca;
     String modelo;
     String color;
-    float peso;
+    int peso;
    
     
          
