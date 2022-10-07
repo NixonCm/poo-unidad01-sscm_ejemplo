@@ -7,7 +7,8 @@ package com.mycompany.mavenproject02;
 
 /**
  *
- * @author USUARIO
+ * @author USUARIO Nixon Alejandro Chuchuca Macas, 
+ * Amawta Manuel Seraquive Suquilanda, Diego Fajardo Fernando Espadero
  */
 public class Mavenproject02 {
 
